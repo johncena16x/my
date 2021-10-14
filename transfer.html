@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/path/to/tailwind.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Money Transfer</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+    
+    <body style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background2.jpg);
+             background-position: center;
+             background-size: cover;
+             position: relative;">
+   
+  <header style="background-color:black;">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+     
+      <span style="color:navajowhite;
+                   font-family:Agency FB;
+                   font-size: 30px;
+                
+                   padding-right: 10px;">Spark Bank</span>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <a href="index.html" style="font-weight:bold;
+                        padding-left:15px;
+                         padding-right:15px;
+                        color:white;
+                         font-size: 20px;"> Home </a>
+      <a href="second.html" style="font-weight:bold;
+                                      color: white;
+                                    padding-left:15px;    
+                                      padding-right:15px;
+                                   font-size: 20px;
+                                      ">Send Money</a>
+        
+    </nav>
+    
+  </div>
+</header>
+<hr>
+
+       <section >
+  
+      <div style="position: relative;
+                  padding:160px;" >
+        <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            
+            <form>
+	<label style="color:white;
+                  font-family: Eras Demi ITC;
+                  font-size: 50px;">Select Beneficiary</label>
+                <br>
+	<select style="background-color: navajowhite;
+                   font-family: Tw Cen MT;
+                   font-size: 25px;" id="beneficiary" name="beneficiary">
+		<option value="none" selected>Select…</option>
+		<option value="vince">Vince Mcmahon</option>
+		<option value="mukesh">Mukesh Ambani</option>
+		<option value="jeff">Jeff Bezos</option>
+        <option value="mark">Mark Zuckerberg</option>
+        <option value="gautam">Gautam Adani</option>
+        <option value="anil">Anil Ambani</option>
+        <option value="john">John Cena</option>
+        <option value="shrey">Shrey Sharama</option>
+        <option value="bill">Bill Gates</option>
+        <option value="elon">Elon Musk</option>
+	</select>
+                <br>
+	<script>
+  function getTextBox(){
+    var k = document.getElemntById('myTextBox').value
+    alert(k)
+  }
+</script>
+                <br>
+<input style="background-color: navajowhite;
+                   font-family: Tw Cen MT;
+                   font-size: 19px;
+                    
+                color:black;"
+       placeholder="Amount" type="text" id="beneficiary" name="beneficiary">
+                 <br>
+                <br><button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">TRANSFER</button>
+</form>
+          </div>
+      </div>
+     </section>
+        
+        
+        
+        
+    </body>
+</html>
